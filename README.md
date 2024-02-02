@@ -45,9 +45,6 @@
 
 ### Gerenciamento de Clientes:
 
-9. **Programa de Fidelidade:**
-   - Implementar um programa de fidelidade que recompensa os clientes frequentes com descontos, brindes ou ofertas especiais.
-
 10. **Perfis de Cliente:**
     - Permitir que os clientes criem perfis para facilitar pedidos futuros e fornecer recomendações personalizadas.
 
