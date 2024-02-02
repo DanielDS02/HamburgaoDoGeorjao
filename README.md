@@ -1,4 +1,4 @@
-# projetoPontoEletronico
+# projetoRestaurante
 
 # como executar
 
