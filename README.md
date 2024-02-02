@@ -30,11 +30,6 @@
 5. **Alertas de Estoque Baixo:**
    - Notificar a equipe quando os níveis de estoque estiverem baixos para que possam ser reabastecidos.
 
-### Promoções e Descontos:
-
-6. **Aplicação de Descontos:**
-   - Oferecer a aplicação automática de descontos com base em promoções atuais ou cupons inseridos pelos clientes.
-
 ### Pagamentos e Entregas:
 
 7. **Opções de Pagamento:**
