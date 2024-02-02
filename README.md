@@ -35,9 +35,6 @@
 7. **Opções de Pagamento:**
    - Aceitar diversos métodos de pagamento, como cartões de crédito, débito ou pagamento online.
 
-8. **Acompanhamento de Entrega:**
-   - Para pedidos de entrega, fornecer um sistema de rastreamento para que os clientes possam acompanhar o status da entrega em tempo real.
-
 ### Gerenciamento de Clientes:
 
 10. **Perfis de Cliente:**
