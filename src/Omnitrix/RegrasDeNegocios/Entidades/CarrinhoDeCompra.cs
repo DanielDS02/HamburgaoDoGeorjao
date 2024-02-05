@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Entidades
 {
-    public class CarrinhoDeCompra
+    public class CarrinhoDeCompra : EntidadeBase
     {
+        public string Pedido { get; set; }
+
+        public int Quantidade {  get; set; }
     }
 }
