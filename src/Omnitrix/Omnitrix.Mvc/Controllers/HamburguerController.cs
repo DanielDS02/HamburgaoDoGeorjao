@@ -2,7 +2,7 @@
 
 namespace Omnitrix.Mvc.Controllers
 {
-    public class ClienteController : Controller
+    public class HamburguerController : Controller
     {
         public IActionResult Index()
         {
@@ -10,4 +10,3 @@ namespace Omnitrix.Mvc.Controllers
         }
     }
 }
-    

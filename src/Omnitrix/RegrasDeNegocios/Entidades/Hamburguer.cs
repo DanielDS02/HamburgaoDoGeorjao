@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Entidades
 {
-    public class Menu
+    public class Hamburguer
     {
+        public Ingredientes Ingredientes {  get; set; }
+
+        // adicionar nome dos hamburguers
+
+
     }
 }

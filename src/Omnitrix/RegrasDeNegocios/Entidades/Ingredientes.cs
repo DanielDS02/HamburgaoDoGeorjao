@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Entidades
 {
-    public class Ingrediente : EntidadeBase
+    public class Ingredientes : EntidadeBase
     {
         public string Pao { get; set; }
 
-        public string Hamburguer { get; set; }
+        public string Carne { get; set; }
 
         public string Maionese { get; set; }
 
@@ -28,6 +28,7 @@ namespace RegrasDeNegocios.Entidades
 
         public string Picles { get; set; }
 
+        public string QueijoCheddar { get; set;}
 
 
 

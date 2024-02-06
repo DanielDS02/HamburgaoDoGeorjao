@@ -8,8 +8,10 @@ namespace RegrasDeNegocios.Entidades
 {
     public class CarrinhoDeCompra : EntidadeBase
     {
-        public string Pedido { get; set; }
+        public Pedido Pedido { get; set; }
 
         public int Quantidade {  get; set; }
+
+        
     }
 }
