@@ -1,3 +1,5 @@
+O projeto usado como base é o senai.pizzaria do professor, qualquer coisa consulte lá
+
 # projetoRestaurante
 
 # como executar
