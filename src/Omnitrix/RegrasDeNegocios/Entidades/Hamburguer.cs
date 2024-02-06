@@ -8,9 +8,23 @@ namespace RegrasDeNegocios.Entidades
 {
     public class Hamburguer
     {
-        public Ingredientes Ingredientes {  get; set; }
+        public Ingredientes Ingredientes { get; set; }
 
-        // adicionar nome dos hamburguers
+        public string BurgerBliss { get; set; }
+
+        public string BurgerSupremo {  get; set; }
+
+        public string PicanhaParadise { get; set; }
+
+        public string RancheroRodeo { get; set; }
+
+        public string SinfoniaDeCogumelos { get; set; }
+
+        public string FrangoFantastico { get; set; }
+
+
+
+
 
 
     }
