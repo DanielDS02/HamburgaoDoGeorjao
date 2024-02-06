@@ -1,4 +1,4 @@
-namespace Omnitrix.Mvc.Models
+namespace HamburgaoDoGeorjao.Mvc.Models
 {
     public class ErrorViewModel
     {

@@ -14,7 +14,7 @@ namespace RegrasDeNegocios.Entidades
         }
         public string Descricao { get; set; }
         public Cliente Cliente { get; set; }
-        public Hamburguer Hamburguer { get; set; }
+        public List<Hamburguer> Hamburguers { get; set; }
         public DateTime DataSolicitacao { get; set; }
         public DateTime? DataPreparacao { get; set; }
         public DateTime? DataSaidaEntrega { get; set; }
