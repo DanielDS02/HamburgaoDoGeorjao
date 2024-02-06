@@ -1,0 +1,6 @@
+@HamburgaoDoGeorjao_HostAddress = http://localhost:5263
+
+GET {{HamburgaoDoGeorjao_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
