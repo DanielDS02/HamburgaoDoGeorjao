@@ -47,10 +47,13 @@ namespace HamburgaoDoGeorjao.Mvc.Controllers
         {
             // Make a request to your authentication API to validate user credentials
             var apiEndpoint = _configuration["AuthenticationApiEndpoint"];
-            var requestBody = $"{{\"email\": \"{username}\", \"password\": \"{password}\"}}";
-            var content = new StringContent(requestBody, Encoding.UTF8, "application/json");
+            var requestBody = new StringContent($"{{\"email\": \"{username}\", \"password\": \"{password}\"}}",null, "application/json");
+                       
+            var request = new HttpRequestMessage(HttpMethod.Post, apiEndpoint);
+            request.Content = requestBody;
+            
 
-            using (var response = await _httpClient.PostAsync(apiEndpoint, content))
+            using (var response = await _httpClient.SendAsync(request))
             {
                 if (response.IsSuccessStatusCode)
                 {
