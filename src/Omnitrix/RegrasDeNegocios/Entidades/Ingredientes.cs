@@ -30,7 +30,5 @@ namespace RegrasDeNegocios.Entidades
 
         public string QueijoCheddar { get; set;}
 
-
-
     }
 }

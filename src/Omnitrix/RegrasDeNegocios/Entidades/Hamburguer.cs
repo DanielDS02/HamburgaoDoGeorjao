@@ -22,10 +22,5 @@ namespace RegrasDeNegocios.Entidades
 
         public string FrangoFantastico { get; set; }
 
-
-
-
-
-
     }
 }
