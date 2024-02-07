@@ -11,6 +11,7 @@ namespace RegrasDeNegocios.Entidades
         public Pedido()
         {
             DataSolicitacao = DateTime.Now;
+            Hamburguers = new List<Hamburguer>();
         }
         public string Descricao { get; set; }
         public Cliente Cliente { get; set; }
