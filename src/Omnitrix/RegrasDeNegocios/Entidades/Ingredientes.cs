@@ -28,7 +28,7 @@ namespace RegrasDeNegocios.Entidades
 
         public string Picles { get; set; }
 
-        public string QueijoCheddar { get; set;}
+        public string QueijoCheddar { get; set; }
 
     }
 }

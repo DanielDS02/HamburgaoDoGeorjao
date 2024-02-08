@@ -1,12 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Omnitrix.Mvc.Controllers
+namespace HamburgaoDoGeorjao.WebApi.Controllers
 {
-    public class HamburguerController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class HamburguerController : ControllerBase
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
     }
 }

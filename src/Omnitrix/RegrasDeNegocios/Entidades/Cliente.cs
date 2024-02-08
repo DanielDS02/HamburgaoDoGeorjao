@@ -8,6 +8,7 @@ namespace RegrasDeNegocios.Entidades
 {
     public class Cliente : EntidadeBase
     {
+        public Guid UserID { get; set; }
         public string Nome { get; set; }
 
         public string CPF { get; set; }

@@ -1,12 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Omnitrix.Mvc.Controllers
+namespace HamburgaoDoGeorjao.WebApi.Controllers
 {
-    public class PedidoController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class PedidoController : ControllerBase
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
     }
 }
