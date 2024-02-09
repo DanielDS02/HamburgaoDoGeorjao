@@ -1,8 +1,10 @@
-﻿using System;
+﻿using HamburgaoDoGeorjao.DAO.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace RegrasDeNegocios.Entidades
 {
@@ -20,5 +22,19 @@ namespace RegrasDeNegocios.Entidades
         public DateTime? DataPreparacao { get; set; }
         public DateTime? DataSaidaEntrega { get; set; }
         public DateTime? DataFinalizacaoEntrega { get; set; }
+
+        public PedidoVo ToPedidoVo()
+        {
+            return new PedidoVo()
+            {
+                PedidoClienteId = Cliente.Id,
+                DataSolicitacao = DataSolicitacao,
+                DataFinalizacaoEntrega = DataFinalizacaoEntrega,
+                DataPreparacao = DataPreparacao,
+                Id = this.Id,
+                DataSaidaEntrega = DataSaidaEntrega,
+            };
+        }
+
     }
 }
