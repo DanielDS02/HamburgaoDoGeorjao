@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Regras
 {
-    public interface IDeletar
+    public interface IDeletar<T>
     {
+        T Deletar(T objeto);
     }
 }

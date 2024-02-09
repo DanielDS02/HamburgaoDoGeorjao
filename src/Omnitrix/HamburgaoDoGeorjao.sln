@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HamburgaoDoGeorjao.Mvc", "O
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegrasDeNegocios", "RegrasDeNegocios\RegrasDeNegocios.csproj", "{75C3E361-1381-4404-AA0F-6CA071C5133C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamburgaoDoGeorjao.WebApi", "HamburgaoDoGeorjao\HamburgaoDoGeorjao.WebApi.csproj", "{71388763-EB68-4AFC-96F5-03AC9AB0D074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HamburgaoDoGeorjao.WebApi", "HamburgaoDoGeorjao\HamburgaoDoGeorjao.WebApi.csproj", "{71388763-EB68-4AFC-96F5-03AC9AB0D074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamburgaoDoGeorjao.DAO", "HamburgaoDoGeorjao.DAO\HamburgaoDoGeorjao.DAO.csproj", "{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{71388763-EB68-4AFC-96F5-03AC9AB0D074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71388763-EB68-4AFC-96F5-03AC9AB0D074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71388763-EB68-4AFC-96F5-03AC9AB0D074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5F732660-4E72-48F0-9F8F-78F58691D920} = {3A265F05-5ED4-440E-936A-B530DB412F91}
 		{75C3E361-1381-4404-AA0F-6CA071C5133C} = {478271B9-3630-4D0D-9C21-2A3E7E1D45B5}
+		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3} = {F83009E4-527D-4A03-B275-486AD3CD65B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DAA9DDA5-A174-42E5-89ED-EAC51694CFD3}

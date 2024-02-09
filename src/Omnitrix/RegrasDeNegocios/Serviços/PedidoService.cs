@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RegrasDeNegocios.Regras
+namespace RegrasDeNegocios.Serviços
 {
-    public interface IAtualizar<T>
+    internal class PedidoService
     {
-        T Adicionar(T objeto);
     }
 }

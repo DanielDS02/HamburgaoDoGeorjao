@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RegrasDeNegocios.Regras
+namespace HamburgaoDoGeorjao.DAO.ValueObjects
 {
-    public interface IAtualizar<T>
+    public class EntidadeBaseVo
     {
-        T Adicionar(T objeto);
+        public int Id { get; set; }
     }
 }

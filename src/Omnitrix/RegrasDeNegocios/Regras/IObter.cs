@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Regras
 {
-    public interface IObter
+    public interface IObter<T>
     {
+        T Obter(T objeto);
     }
 }

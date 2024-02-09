@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Regras
 {
-    public interface IAdicionar
+    public interface IAdicionar<T>
     {
+        T Adicionar(T objeto);
     }
 }

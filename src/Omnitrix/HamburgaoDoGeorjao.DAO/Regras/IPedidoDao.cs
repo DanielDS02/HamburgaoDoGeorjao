@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using HamburgaoDoGeorjao.DAO.ValueObjects;
 
-namespace RegrasDeNegocios.Regras
+namespace HamburgaoDoGeorjao.DAO.Regras
 {
-    public interface IAtualizar<T>
+    public interface IPedidoDao : IDao<PedidoVo>
     {
-        T Adicionar(T objeto);
     }
 }
