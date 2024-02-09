@@ -10,6 +10,8 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
 {
     public class HamburguerDAoInMemory : IHamburguerDao
     {
+        public List<HamburguerVo> Hamburguers { get; set; }
+
         public Task AtualizarRegistro(HamburguerVo objetoParaAtualizar)
         {
             var atualizarId =
