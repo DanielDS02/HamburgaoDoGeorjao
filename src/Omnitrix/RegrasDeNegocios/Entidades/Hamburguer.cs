@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Entidades
 {
-    public class Hamburguer
+    public class Hamburguer : EntidadeBase
     {
         public Ingredientes Ingredientes { get; set; }
 
