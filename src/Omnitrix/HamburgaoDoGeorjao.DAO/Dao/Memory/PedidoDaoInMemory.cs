@@ -11,7 +11,7 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
     public class PedidoDaoInMemory : IPedidoDao
     {
         public List<PedidoVo> Pedidos { get; set; }
-        public PedidoDAoInMemory()
+        public PedidoDaoInMemory()
         {
             Pedidos = new();
 
