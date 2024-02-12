@@ -12,7 +12,7 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
     {
         public Task AtualizarRegistro(PedidoClienteVo objetoParaAtualizar)
         {
-            throw new NotImplementedException();
+            
         }
 
         public int CriarRegistro(PedidoClienteVo objetoVo)

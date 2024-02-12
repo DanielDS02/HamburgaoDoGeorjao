@@ -17,7 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegrasDeNegocios", "RegrasD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HamburgaoDoGeorjao.WebApi", "HamburgaoDoGeorjao\HamburgaoDoGeorjao.WebApi.csproj", "{71388763-EB68-4AFC-96F5-03AC9AB0D074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HamburgaoDoGeorjao.DAO", "HamburgaoDoGeorjao.DAO\HamburgaoDoGeorjao.DAO.csproj", "{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HamburgaoDoGeorjao.DAO", "HamburgaoDoGeorjao.DAO\HamburgaoDoGeorjao.DAO.csproj", "{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Application", "Authentication.Application\Authentication.Application.csproj", "{822B9185-D7ED-46A3-8025-FEF14EC524F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Domain", "Authentication.Domain\Authentication.Domain.csproj", "{B8FC8EC7-DD21-4682-B13D-2DFD08A19112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Infrastructure", "Authentication.Infrastructure\Authentication.Infrastructure.csproj", "{2FDA0E3B-199B-4F85-83AB-944A2560EF51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Service", "Authentication.Service\Authentication.Service.csproj", "{1B8D66AD-6430-4212-AA8A-C4BDD1687821}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +49,22 @@ Global
 		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5874E14-D34A-4F22-88A1-58FE0DB00CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822B9185-D7ED-46A3-8025-FEF14EC524F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822B9185-D7ED-46A3-8025-FEF14EC524F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822B9185-D7ED-46A3-8025-FEF14EC524F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822B9185-D7ED-46A3-8025-FEF14EC524F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FC8EC7-DD21-4682-B13D-2DFD08A19112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FC8EC7-DD21-4682-B13D-2DFD08A19112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FC8EC7-DD21-4682-B13D-2DFD08A19112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FC8EC7-DD21-4682-B13D-2DFD08A19112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDA0E3B-199B-4F85-83AB-944A2560EF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDA0E3B-199B-4F85-83AB-944A2560EF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDA0E3B-199B-4F85-83AB-944A2560EF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDA0E3B-199B-4F85-83AB-944A2560EF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8D66AD-6430-4212-AA8A-C4BDD1687821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8D66AD-6430-4212-AA8A-C4BDD1687821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8D66AD-6430-4212-AA8A-C4BDD1687821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8D66AD-6430-4212-AA8A-C4BDD1687821}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
