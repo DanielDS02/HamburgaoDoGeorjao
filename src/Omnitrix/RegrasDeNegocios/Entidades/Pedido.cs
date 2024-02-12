@@ -23,7 +23,7 @@ namespace RegrasDeNegocios.Entidades
         public DateTime? DataSaidaEntrega { get; set; }
         public DateTime? DataFinalizacaoEntrega { get; set; }
 
-        public PedidoVo ToPedidoVo()
+        public PedidoVo ToPedidoClienteVo()
         {
             return new PedidoVo()
             {

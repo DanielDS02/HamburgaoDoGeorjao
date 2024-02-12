@@ -30,7 +30,7 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
             throw new NotImplementedException();
         }
 
-        public List<PedidoClienteVo> ObterRegistros()
+        public List<PedidoClienteVo> ObterRegistrosAsync()
         {
             throw new NotImplementedException();
         }

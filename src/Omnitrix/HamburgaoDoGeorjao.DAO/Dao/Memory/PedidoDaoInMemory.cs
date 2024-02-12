@@ -10,34 +10,58 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
 {
     public class PedidoDaoInMemory : IPedidoDao
     {
+        public List<PedidoVo> Pedidos { get; set; }
+        public PedidoDAoInMemory()
+        {
+            Pedidos = new();
+
+
+            PedidoVo pedidoVo = new PedidoVo()
+            {
+                Id = 1,
+
+            };
+            Pedidos.Add(pedidoVo);
+
+        }
+
         public Task AtualizarRegistro(PedidoVo objetoParaAtualizar)
         {
-            throw new NotImplementedException();
+            var idAtualizar = Pedidos.Find(pedido => pedido.Id.Equals(objetoParaAtualizar.Id));
+            Pedidos.Remove(idAtualizar);
+            Pedidos.Add(objetoParaAtualizar);
+            return Task.CompletedTask;
         }
 
         public int CriarRegistro(PedidoVo objetoVo)
         {
-            throw new NotImplementedException();
+            objetoVo.Id = Pedidos.Count + 1;
+            Pedidos.Add(objetoVo);
+            return objetoVo.Id;
         }
 
         public Task DeletarRegistro(int ID)
         {
-            throw new NotImplementedException();
+            var idAtualizar = Pedidos.Find(pedido => pedido.Id.Equals(ID));
+            Pedidos.Remove(idAtualizar);
+            return Task.CompletedTask;
         }
 
         public Task<PedidoVo> ObterRegistro(int ID)
         {
-            throw new NotImplementedException();
+            var pedido = Pedidos.Find(pedido => pedido.Id.Equals(ID));
+            return Task.FromResult(pedido);
         }
 
-        public List<PedidoVo> ObterRegistros()
+        public List<PedidoVo> ObterRegistrosAsync()
         {
-            throw new NotImplementedException();
+            return Pedidos;
         }
 
         public List<PedidoVo> ObterRegistros(int ID)
         {
-            throw new NotImplementedException();
+            var pedidos = Pedidos.FindAll(pedido => pedido.Id.ToString().Contains(ID.ToString()));
+            return pedidos;
         }
     }
 }

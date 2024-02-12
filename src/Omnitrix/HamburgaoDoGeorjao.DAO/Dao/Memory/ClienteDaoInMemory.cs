@@ -72,10 +72,5 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
         {
             return Clientes;
         }
-
-        public List<ClienteVo> ObterRegistros()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

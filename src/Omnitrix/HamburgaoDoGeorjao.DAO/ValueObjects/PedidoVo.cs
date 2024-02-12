@@ -10,11 +10,8 @@ namespace HamburgaoDoGeorjao.DAO.ValueObjects
     {
         public PedidoVo() { }
 
+
         public int PedidoClienteId { get; set; }
-        public DateTime DataSolicitacao { get; set; }
-        public DateTime? DataPreparacao { get; set; }
-        public DateTime? DataSaidaEntrega { get; set; }
-        public DateTime? DataFinalizacaoEntrega { get; set; }
         public int HamburguerId { get; set; }
     }
 }
