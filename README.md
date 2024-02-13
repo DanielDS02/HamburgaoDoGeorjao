@@ -1,4 +1,4 @@
-O projeto usado como base é o senai.pizzaria do professor, qualquer coisa consulte lá
+
 
 # projetoRestaurante
 
@@ -12,33 +12,75 @@ O projeto usado como base é o senai.pizzaria do professor, qualquer coisa consu
 
 # regras de negocio
 
-### Gerenciamento de Pedidos:
+cliente
+primeira coisa - endereço -  pedidoendereço
+add classe endereço (lista de endereço e um padrão)
 
-1. **Criação de Pedidos:**
-   - Os clientes podem criar pedidos selecionando itens do menu.
-   - Um pedido deve conter pelo menos um item.
+default propriedade booliano
 
-2. **Personalização de Pedidos:**
-   - Permitir que os clientes personalizem seus pedidos, como escolher ingredientes adicionais ou solicitar ajustes nos itens do menu.
 
-3. **Carrinho de Compras:**
-   - Manter um carrinho de compras para os clientes revisarem e modificarem seus pedidos antes de finalizar.
+criar banco cliente
+web api cliente controller
 
-### Pagamentos e Entregas:
+crud cliente
+faz a tela de ver os clientes (mostrar clientes admin)
 
-7. **Opções de Pagamento:**
-   - Aceitar diversos métodos de pagamento, como cartões de crédito, débito ou pagamento online.
+mostrar o login do cliente
 
-### Gerenciamento de Clientes:
+criar a nova conta (pedir endereço)
+autenticar usuario
 
-10. **Perfis de Cliente:**
-    - Permitir que os clientes criem perfis para facilitar pedidos futuros e fornecer recomendações personalizadas.
+criar usuario no sistema de autenticação
+user id - buscar o cliente com esse id
 
-### Relatórios e Análises:
+autenticou mostrar os hamburgueres do sistema
 
-12. **Feedback do Cliente:**
-    - Coletar feedback dos clientes sobre a qualidade da comida, tempo de entrega e atendimento, visando melhorias contínuas.
+----------------------------------
 
+fazer entidade de hamburguer (admin)
+
+string ingredientes
+
+string tipo de pão
+
+valor do hamburguer
+
+fazer o DAo do hamburguer
+
+fazer a api do hamburguer controller e mostrar no site
+
+parte de cadastrar hamburguer
+
+colocar o tamanho dos hmaburguer
+
+disponibilidade dos produtos (booliano)
+
+
+-----------------------------------
+
+carrinho
+
+logou o usuario
+mostrar a lista de hamburgues
+
+add carrinho (banco de dados depois que confirmar o pedido (se não mantem em memoria)
+
+carrinho --> hamburguer, bebida, batata frita, sobremesa (classe produto) (add quantidade no site para o admin) (v 2,0 fazer automatico)
+cliente
+endereço
+forma de pagamento
+
+nome id e preço
+
+---------------------------------------------
+
+pedido
+
+data do pedido
+data de entrega
+endereço
+cliente
+id carrinnho associado no pedido
 
 # links importantes
 
