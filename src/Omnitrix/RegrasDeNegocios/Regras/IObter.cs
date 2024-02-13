@@ -8,6 +8,7 @@ namespace RegrasDeNegocios.Regras
 {
     public interface IObter<T>
     {
-        T Obter(T objeto);
+        Task<List<T>> ObterTodos();
+        Task<List<T>> ObterTodos(int[] id);
+        Task<T> Obter(int id);
     }
-}

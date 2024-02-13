@@ -8,6 +8,6 @@ namespace RegrasDeNegocios.Regras
 {
     public interface IAtualizar<T>
     {
-        T Adicionar(T objeto);
+        Task<T> AtualizarAsync(T objeto);
     }
 }

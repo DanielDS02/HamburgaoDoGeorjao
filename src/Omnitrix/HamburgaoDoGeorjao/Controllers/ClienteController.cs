@@ -45,11 +45,11 @@ namespace HamburgaoDoGeorjao.WebApi.Controllers
         }
 
         [HttpDelete]
-        public async Task Deletar(int ID)
+        public async Task Deletar(int Id)
         {
             try
             {
-                await _clienteService.Deletar(ID);
+                await _clienteService.Deletar(Id);
             }
             catch (Exception)
             {
