@@ -10,6 +10,8 @@ namespace RegrasDeNegocios.Entidades
     {
         public Ingredientes Ingredientes { get; set; }
 
+        public string TipodePao { get; set; }
+        public double Valor {  get; set; }
         public string BurgerBliss { get; set; }
 
         public string BurgerSupremo {  get; set; }
