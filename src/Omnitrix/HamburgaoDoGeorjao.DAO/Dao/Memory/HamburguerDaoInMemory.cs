@@ -10,9 +10,20 @@ using HamburgaoDoGeorjao.DAO.ValueObjects;
 
 namespace HamburgaoDoGeorjao.DAO.Dao.Memory 
 {
-    public class HamburguerDAoInMemory : IHamburguerDao
+    public class HamburguerDaoInMemory : IHamburguerDao
     {
+        public List<HamburguerVo> Hamburguers { get; set; }
+        public HamburguerDaoInMemory()
+        {
+            Hamburguers = new();
 
+            HamburguerVo hamburguerVo = new HamburguerVo()
+            {
+                Id = 1,
+
+            };
+            Hamburguers.Add(hamburguerVo);
+        }
 
         public Task AtualizarRegistro(HamburguerVo objetoParaAtualizar)
         {

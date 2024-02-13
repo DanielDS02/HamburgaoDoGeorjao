@@ -23,10 +23,6 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
                 Id = 1,
                 Nome = "Daniel",
                 CPF = "000.000.000-00",
-                Endereco = "Rua Adalberto",
-                Bairro = "Centro",
-                Numero = 765,
-                Complemento = "Casa",
                 Email = "email",
                 Senha = "senha", 
                 UserId = Guid.NewGuid()
