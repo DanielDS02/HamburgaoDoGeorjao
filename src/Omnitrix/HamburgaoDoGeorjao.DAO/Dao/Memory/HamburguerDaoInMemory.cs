@@ -63,5 +63,10 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
             var hamburguers = Hamburguers.FindAll(hamburguer => hamburguer.Id.ToString().Contains(ID.ToString()));
             return Hamburguers;
         }
+
+        public List<HamburguerVo> ObterRegistros()
+        {
+            return Hamburguers;
+        }
     }
 }

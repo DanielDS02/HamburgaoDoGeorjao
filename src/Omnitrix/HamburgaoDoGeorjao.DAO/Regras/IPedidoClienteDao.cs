@@ -9,5 +9,6 @@ namespace HamburgaoDoGeorjao.DAO.Regras
 {
     public interface IPedidoClienteDao : IDao<PedidoClienteVo>
     {
+        int CriarRegistro(PedidoVo pedidoVo);
     }
 }

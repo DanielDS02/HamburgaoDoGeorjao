@@ -53,7 +53,7 @@ namespace RegrasDeNegocios.Serviços
         public async Task<List<Cliente>> ObterTodos()
         {
             List<Cliente> clientes = new List<Cliente>();
-            List<ClienteVo> clientesVo = _clienteDao.ObterRegistrosAsync();
+            List<ClienteVo> clientesVo = _clienteDao.ObterRegistros();
 
             foreach (ClienteVo o in clientesVo)
             {

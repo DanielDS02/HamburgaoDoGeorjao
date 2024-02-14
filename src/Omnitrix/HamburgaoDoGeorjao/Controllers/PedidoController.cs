@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using HamburgaoDoGeorjao.RegrasDeNegocios.Entidades;
-using HamburgaoDoGeorjao.RegrasDeNegocios.Regras;
-using HamburgaoDoGeorjao.RegrasDeNegocios.Serviços;
+using RegrasDeNegocios.Entidades;
+using RegrasDeNegocios.Regras;
+using RegrasDeNegocios.Serviços;
 
 
 namespace HamburgaoDoGeorjao.WebApi.Controllers

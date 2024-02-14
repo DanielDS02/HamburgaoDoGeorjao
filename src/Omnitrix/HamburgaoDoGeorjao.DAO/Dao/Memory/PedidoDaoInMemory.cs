@@ -63,5 +63,10 @@ namespace HamburgaoDoGeorjao.DAO.Dao.Memory
             var pedidos = Pedidos.FindAll(pedido => pedido.Id.ToString().Contains(ID.ToString()));
             return pedidos;
         }
+
+        public List<PedidoVo> ObterRegistros()
+        {
+            return Pedidos;
+        }
     }
 }

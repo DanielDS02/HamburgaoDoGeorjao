@@ -79,7 +79,7 @@ namespace RegrasDeNegocios.Serviços;
             foreach (var pedidoDeHamburguer in pedidosDeHamburguer)
             {
                 var hamburguer = await _hamburguerService.Obter(pedidoDeHamburguer.HamburguerId);
-                hamburguer.Add(hamburguer);
+                hamburguers.Add(hamburguer);
             }
 
             var pedido = new Pedido()

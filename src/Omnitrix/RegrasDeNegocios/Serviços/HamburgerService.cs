@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace RegrasDeNegocios.Serviços
 {
-    public class HamburgerService : IHamburguerService
+    public class HamburguerService : IHamburguerService
     {
         private readonly IHamburguerDao HamburguerDao;
 
@@ -33,8 +33,8 @@ namespace RegrasDeNegocios.Serviços
         public async Task<List<Hamburguer>> ObterTodos()
         {
             List<Hamburguer> hamburguers = new();
-            List<HamburguerVo> hamburguerBanco = HamburguerDao.ObterRegistros();
-            foreach (HamburguerVo pizzaVo in hamburguerBanco)
+            List<HamburguerVo> hamburguersBanco = HamburguerDao.ObterRegistros();
+            foreach (HamburguerVo hamburguerVo in hamburguersBanco)
             {
                 Hamburguer hamburguer = new Hamburguer()
                 {
@@ -42,7 +42,7 @@ namespace RegrasDeNegocios.Serviços
                 };
                 hamburguers.Add(hamburguer);
             }
-            return hamburguer;
+            return hamburguers;
         }
 
         public async Task<Hamburguer> AtualizarAsync(Hamburguer objeto)

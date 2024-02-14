@@ -8,6 +8,6 @@ namespace RegrasDeNegocios.Regras
 {
     public interface IDeletar<T>
     {
-        T Deletar(T objeto);
+        Task Deletar(int ID);
     }
 }

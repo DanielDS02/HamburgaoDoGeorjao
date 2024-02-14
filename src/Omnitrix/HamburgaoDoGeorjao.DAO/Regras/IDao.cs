@@ -9,7 +9,8 @@ namespace HamburgaoDoGeorjao.DAO.Regras
     public interface IDao<T>
     {
         Task<T> ObterRegistro(int ID);
-        List<T> ObterRegistrosAsync();
+
+        List<T> ObterRegistros();
         List<T> ObterRegistros(int ID);
         int CriarRegistro(T objetoVo);
 
