@@ -28,11 +28,8 @@ namespace RegrasDeNegocios.Entidades
             return new PedidoVo()
             {
                 PedidoClienteId = Cliente.Id,
-                DataSolicitacao = DataSolicitacao,
-                DataFinalizacaoEntrega = DataFinalizacaoEntrega,
-                DataPreparacao = DataPreparacao,
-                Id = this.Id,
-                DataSaidaEntrega = DataSaidaEntrega,
+                Id = this.Id
+                
             };
         }
 

@@ -12,3 +12,4 @@ namespace RegrasDeNegocios.Regras
         Task<List<T>> ObterTodos(int[] id);
         Task<T> Obter(int id);
     }
+}
