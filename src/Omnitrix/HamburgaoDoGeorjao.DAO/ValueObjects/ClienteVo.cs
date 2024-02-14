@@ -11,7 +11,7 @@ namespace HamburgaoDoGeorjao.DAO.ValueObjects
         
         public Guid UserId { get; set; }
         public string Nome { get; set; }
-
+        public EnderecoVo EnderecoVo { get; set; }
         public string CPF { get; set; }
         public string Email { get; set; }
 
