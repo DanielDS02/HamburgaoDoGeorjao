@@ -20,3 +20,138 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbarPrincipal {
+    background-color: #f16b12;
+    height: auto;
+}
+
+.bodycolor {
+    background-color: #da4d1a;
+}
+
+.Logo {
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.menuresponsivo {
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+/* Estilo padrão para o texto */
+.a-login {
+    font-size: 25px !important;
+    text-align: center;
+}
+
+/* Media query para telas maiores que 758px */
+@media screen and (min-width: 758px) {
+    .a-login {
+        font-size: 20px; /* Tamanho maior */
+        text-align: right; /* Alinhamento para a direita */
+    }
+}
+
+.a-carrinho {
+    font-size: 20px !important;
+}
+
+.bemvindo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+.carouselAdjust {
+    max-width: 1278px;
+    margin-bottom: 10px;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: 600px;
+}
+
+.carousel-item {
+    max-height: auto;
+}
+
+.icon-buy {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+/* .card-brian {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #e6ad16;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-brian .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-brian .card-title {
+    margin-bottom: 0.75rem;
+}
+
+.card-brian .card-text {
+    margin-bottom: 1.25rem;
+}
+
+.card-brian:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+} */
+
+.footer-color {
+    background-color: #f16b12;
+}
+
+.card-style {
+    width: 18rem;
+}
+
+.color-card-login {
+    border-radius: 1rem;
+    background-color: #e6ad16 !important;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.margin-top2 {
+    margin-top: 650px;
+}
+
+.color-menu {
+    color: aliceblue;
+}
+
+.size-text {
+    font-size: 20px;
+}
+
+.margin-icon {
+    margin-right: 5px;
+}
+
+.margin-buy {
+    margin-right: 15px;
+}
