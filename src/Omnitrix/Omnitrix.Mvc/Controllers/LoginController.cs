@@ -25,7 +25,7 @@ namespace HamburgaoDoGeorjao.Mvc.Controllers
         {
             _configuration = configuration;
             _httpClient = httpClientFactory.CreateClient();
-            ClienteApiEndpoint = configuration["PizzaApiEndpoint"] + "/api/cliente";
+            ClienteApiEndpoint = configuration["HamburguerApiEndpoint"] + "/api/cliente";
         }
 
         [HttpGet]

@@ -43,9 +43,9 @@ namespace HamburgaoDoGeorjao.Mvc.Controllers
             {
                 HamburguersViewModel hamburguerViewModel = new HamburguersViewModel();
 
-                var pizzas = await _httpClient.GetFromJsonAsync<Hamburguer[]>(HamburguerApiEndpoint);
+                var hamburguers = await _httpClient.GetFromJsonAsync<Hamburguer[]>(HamburguerApiEndpoint);
 
-                hamburguerViewModel.Hamburguers.AddRange(pizzas);
+                hamburguerViewModel.Hamburguers.AddRange(hamburguers);
                 return View(hamburguerViewModel);
             }
         }
