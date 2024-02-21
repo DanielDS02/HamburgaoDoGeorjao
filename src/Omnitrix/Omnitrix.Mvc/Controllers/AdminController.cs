@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RegrasDeNegocios.Entidades;
-using HamburgaoDoGeorjao.Mvc.Services
+using HamburgaoDoGeorjao.Mvc.Services;
 
 namespace HamburgaoDoGeorjao.Mvc.Controllers
 {
