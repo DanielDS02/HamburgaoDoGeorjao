@@ -34,7 +34,7 @@ builder.Services.AddScoped<IClienteDao, ClienteRepository>();
 builder.Services.AddScoped<IPedidoDao, PedidoRepository>();
 
 //Criação objetos de serviço
-builder.Services.AddScoped<IPizzaService, PizzaService>();
+builder.Services.AddScoped<IHamburguerService, HamburguerService>();
 builder.Services.AddScoped<IClienteService, ClienteService>();
 builder.Services.AddScoped<IPedidoService, PedidoService>();
 
