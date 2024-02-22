@@ -26,26 +26,14 @@ namespace HamburgaoDoGeorjao.Mvc.Controllers
                 HamburguerApiEndpoint = Configuration["HamburguerApiEndpoint"] + "/api/hamburguer";
             }
 
-            //private List<PizzaModel> ObterPizzas()
-            //{
-            //    //// Lógica para obter dados de pizzas do seu sistema
-            //    //// Pode ser de um banco de dados, serviço, etc.
-            //    //// Aqui estou usando dados fictícios para ilustrar
-            //    //return new List<Pizza>
-            //    //{
-            //    //    new Pizza { Id = 1, Sabor = "Margherita", TamanhoDePizza = "Média", Descricao = "Pizza clássica com molho de tomate, queijo e manjericão.", Valor = 20.99, ImageUrl = "/images/margherita.jpg", Quantity = 0 },
-            //    //    new Pizza { ID = 2, Sabor = "Pepperoni", TamanhoDePizza = "Grande", Descricao = "Pizza com pepperoni, queijo e molho de tomate.", Valor = 23.99, ImageUrl = "/images/pepperoni.jpg", Quantity = 0 },
-            //    //    // Adicione mais pizzas conforme necessário
-            //    //};
-            //}
 
             public async Task<IActionResult> IndexAsync()
             {
                 HamburguersViewModel hamburguerViewModel = new HamburguersViewModel();
 
-                var pizzas = await _httpClient.GetFromJsonAsync<Hamburguer[]>(HamburguerApiEndpoint);
+                var hamburguers = await _httpClient.GetFromJsonAsync<Hamburguer[]>(HamburguerApiEndpoint);
 
-                hamburguerViewModel.Hamburguers.AddRange(pizzas);
+                hamburguerViewModel.Hamburguers.AddRange(hamburguers);
                 return View(hamburguerViewModel);
             }
         }
