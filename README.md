@@ -1,3 +1,6 @@
+Esse foi o projeto de finalização do curso de Programação C# oferecido pelo Entra21.
+Infelizmente o projeto não está completo, eu ainda voltarei para termina-lo.
+
 
 
 # projetoRestaurante
@@ -9,6 +12,7 @@
 # arquitetura
 
 # integrantes
+Brian, Daniel e Elder
 
 # regras de negocio
 
